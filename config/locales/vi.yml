@@ -1,0 +1,26 @@
+vi:
+  title: "Ung dung mau cho Ruby on Rails"
+  language_en: "Tieng anh"
+  language_vn: "Tieng viet"
+  static_pages:
+    home:
+      title: "Trang chu"
+      content: "Day la trang chu cho"
+      content_link_1: "Ung dung mau cho Rails"
+    about:
+      title: "Gioi Thieu"
+      content_1: "de day phat trien web voi"
+      content_2: "Day la ung dung mau cho huong dan"
+      content_link_1: "Huong dan Ruby on Rails la"
+      content_link_2: " Cuon sach"
+      content_link_3: "screencast series"
+      content_link_4: "Ruby on Rails"
+    help:
+      title: "Tro Giup"
+      content_1: "Nhan su tro giup ve Ruby on Rails tai"
+      content_2: "De nhan su tro giup ve ung dung nay, hay xem"
+      content_link_1: "Phan tro giup cua Rails Tutorial"
+      content_link_2: "Sach huong dan ve Rails"
+
+
+
