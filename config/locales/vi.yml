@@ -1,12 +1,18 @@
 vi:
+  signup: "Dang ky"
+  login: "Dang nhap"
+  sample_app: "Ung dung mau"
   title: "Ung dung mau cho Ruby on Rails"
   language_en: "Tieng anh"
   language_vn: "Tieng viet"
   static_pages:
     home:
+      hello: "Chao mung den voi ung dung mau"
       title: "Trang chu"
       content: "Day la trang chu cho"
       content_link_1: "Ung dung mau cho Rails"
+      signup: "Dang ky ngay"
+      alt: "Rails logo"
     about:
       title: "Gioi Thieu"
       content_1: "de day phat trien web voi"
@@ -21,6 +27,19 @@ vi:
       content_2: "De nhan su tro giup ve ung dung nay, hay xem"
       content_link_1: "Phan tro giup cua Rails Tutorial"
       content_link_2: "Sach huong dan ve Rails"
+    contact:
+      title: "Lien he"
+      content: "Lien he voi huong dan Ruby on Rails ve ung dung mau tai"
+      contact_page: "Trang lien he"
+    news:
+      title: "Tin tuc"
+    signup:
+      title: "Dang ky"
+      content: "Day se la trang dang ky cho nguoi dung"
+  footer:
+    content_1: "Huong dan ruby on rails"
+    content_2: "boi Michael Hartl"
+
 
 
 
