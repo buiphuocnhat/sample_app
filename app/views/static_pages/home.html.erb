@@ -1,13 +1,6 @@
-<div class="center jumbotron">
-  <h1><%= t ".hello" %></h1>
-
-  <h2>
-    <%= t ".content" %>
-    <%= link_to t(".content_link_1"), Settings.link_rortutorial %>
-  </h2>
-
-  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-
-<%= link_to image_tag("rails.png", alt: t(".alt")),
-            Settings.link_rortutorial %>
+<% provide :title, "#{t"static_pages.home.title"}" %>
+<h1><%= t "static_pages.home.title" %></h1>
+<p>
+  <%= t"static_pages.home.content" %>
+  <%= link_to  "#{t"static_pages.home.content_link_1"}", Settings.link_rortutorial %>
+</p>

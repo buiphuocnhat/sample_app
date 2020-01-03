@@ -7,8 +7,6 @@ gem "config"
 
 gem "rails", "~> 5.2.4", ">= 5.2.4.1"
 
-gem "bootstrap-sass", "3.3.7"
-
 gem "sqlite3"
 
 gem "puma", "~> 3.11"

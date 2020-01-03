@@ -1,8 +1,8 @@
-<% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
+<% provide :title, "#{ t"static_pages.help.title"}" %>
+<h1><%= t"static_pages.help.title" %></h1>
 <p>
-  <%= t ".content_1" %>
-  <%= link_to t(".content_link_1"), Settings.link_rortutorial_help %>.
-  <%= t ".content_2" %>
-  <%= link_to t(".content_link_2"), Settings.link_book %>
+  <%= t"static_pages.help.content_1" %>
+  <%= link_to  "#{t "static_pages.help.content_link_1"}", Settings.link_rortutorial_help %>.
+  <%= t"static_pages.help.content_2"%>
+  <%= link_to  "#{t "static_pages.help.content_link_2"}", Settings.link_book %>
 </p>
