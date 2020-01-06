@@ -37,6 +37,9 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+      session:
+        name: "Name"
+        password: "Password"
   login: "Login"
   sample_app: "Sample app"
   title: "Ruby on Rails Tutorial Sample App"
@@ -84,3 +87,8 @@ en:
     create_fail: "Sign up failed"
     new:
        btn_create: "Create my account"
+  sessions:
+    new:
+      login: "Login"
+      new_user: "New user?"
+      sign_up: "Sign up now!"

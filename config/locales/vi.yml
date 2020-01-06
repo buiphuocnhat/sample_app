@@ -6,6 +6,9 @@ vi:
         email: "Email"
         password: "Mat khau"
         password_confirmation: "Nhap lai mat khau"
+      session:
+        name: "Ten"
+        password: "Mat khau"
   signup: "Dang ky"
   login: "Dang nhap"
   sample_app: "Ung dung mau"
@@ -54,7 +57,11 @@ vi:
     create_fail: "Dang ky that bai"
     new:
       btn_create: "Tao tai khoan"
-
+  sessions:
+    new:
+      login: "Dang nhap"
+      new_user: "Ban la thanh vien moi?"
+      sign_up: "Dang ky ngay!"
 
 
 
