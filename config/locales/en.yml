@@ -30,6 +30,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
   login: "Login"
   sample_app: "Sample app"
   title: "Ruby on Rails Tutorial Sample App"
@@ -69,5 +76,11 @@ en:
   footer:
     content_1: "The Ruby on Rails Tutorial"
     content_2: "by Michael Hartl"
-
-
+  share:
+    error_messages: "The form contains error"
+  users:
+    user_notexist: "User does not exist"
+    create_success: Welcome to the Sample App!"
+    create_fail: "Sign up failed"
+    new:
+       btn_create: "Create my account"

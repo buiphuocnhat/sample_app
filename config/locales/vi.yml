@@ -1,4 +1,11 @@
 vi:
+  helpers:
+    label:
+      user:
+        name: "Ten"
+        email: "Email"
+        password: "Mat khau"
+        password_confirmation: "Nhap lai mat khau"
   signup: "Dang ky"
   login: "Dang nhap"
   sample_app: "Ung dung mau"
@@ -39,6 +46,14 @@ vi:
   footer:
     content_1: "Huong dan ruby on rails"
     content_2: "boi Michael Hartl"
+  share:
+    error_messages: "Bieu mau co chua loi"
+  users:
+    user_notexist: "User khong ton tai"
+    create_success: "Chao mung den voi ung dung mau"
+    create_fail: "Dang ky that bai"
+    new:
+      btn_create: "Tao tai khoan"
 
 
 
