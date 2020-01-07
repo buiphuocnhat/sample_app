@@ -9,6 +9,7 @@ vi:
       session:
         name: "Ten"
         password: "Mat khau"
+        remember_me: "Remember me"
   signup: "Dang ky"
   login: "Dang nhap"
   sample_app: "Ung dung mau"
@@ -63,6 +64,7 @@ vi:
       login: "Dang nhap"
       new_user: "Ban la thanh vien moi?"
       sign_up: "Dang ky ngay!"
+      remember_me: "Nho dang nhap"
   layouts:
     _header:
       users: "Danh sach nguoi su dung"
@@ -70,4 +72,3 @@ vi:
       settings: "Cai dat"
       log_out: "Dang xuat"
       account: "Tai khoan"
-
