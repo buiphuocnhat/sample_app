@@ -22,7 +22,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
+    @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
     return if @user
 
     flash[:alert] = t "users.user_notexist"
