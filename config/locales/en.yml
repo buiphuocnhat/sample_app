@@ -40,6 +40,7 @@ en:
       session:
         name: "Name"
         password: "Password"
+        remember_me: "Remember me"
   login: "Login"
   sample_app: "Sample app"
   title: "Ruby on Rails Tutorial Sample App"
@@ -93,6 +94,7 @@ en:
       login: "Login"
       new_user: "New user?"
       sign_up: "Sign up now!"
+      remember_me: "Remember me on this computer"
   layouts:
     _header:
       users: "Users"
@@ -100,4 +102,3 @@ en:
       settings: "Settings"
       log_out: "Log out"
       account: "Account"
-
