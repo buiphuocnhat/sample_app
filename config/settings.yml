@@ -6,3 +6,7 @@ link_news_rortutorial: http://news.railstutorial.org/
 link_michaelhartl: http://www.michaelhartl.com/
 link_contact_page: "https://www.railstutorial.org/contact"
 remember_me: "1"
+avatar_size: {size: 80}
+avata_size_user: 50
+pages: 10
+link_edit_gravatar_for_user: "http://gravatar.com/emails"

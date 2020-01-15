@@ -86,8 +86,21 @@ en:
     user_notexist: "User does not exist"
     create_success: Welcome to the Sample App!"
     create_fail: "Sign up failed"
+    profile_updated: "Profile updated"
+    profile_updated_fail: "Update failed"
+    pls_login: "Please log in."
     new:
-       btn_create: "Create my account"
+      btn_create: "Create my account"
+    _user:
+      you_sure: "You sure?"
+      delete: "delete"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+      btn_save_changes: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
   sessions:
     create_fail: "Invalid email/password combination"
     new:
