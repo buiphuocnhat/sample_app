@@ -86,6 +86,10 @@ en:
     user_notexist: "User does not exist"
     create_success: Welcome to the Sample App!"
     create_fail: "Sign up failed"
+    check_mail: "Please check your email to activate your account"
+    update_success: "Profile updated"
+    pls_login: "Please log in."
+    user_destroy: "User deleted"
     new:
        btn_create: "Create my account"
   sessions:

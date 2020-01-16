@@ -56,6 +56,10 @@ vi:
     user_notexist: "User khong ton tai"
     create_success: "Chao mung den voi ung dung mau"
     create_fail: "Dang ky that bai"
+    check_mail: "Lam on check mail de kich hoat tai khoan cua ban"
+    update_success: "Cap nhat thanh cong"
+    pls_login: "Lam on dang nhap"
+    user_destroy: "Da xoa nguoi dung"
     new:
       btn_create: "Tao tai khoan"
   sessions:
@@ -64,3 +68,5 @@ vi:
       new_user: "Ban la thanh vien moi?"
       sign_up: "Dang ky ngay!"
       remember_me: "Nho dang nhap"
+  account_activations_controller:
+
