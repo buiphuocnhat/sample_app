@@ -10,12 +10,27 @@ vi:
         name: "Ten"
         password: "Mat khau"
         remember_me: "Remember me"
+  activerecord:
+    errors:
+      messages:
+        blank: "không được để trống"
+        invalid: "không đúng định dạng"
+        too_short: "quá ngắn"
   signup: "Dang ky"
   login: "Dang nhap"
+  profile: "Tai khoan"
+  settings: "Cai dat"
+  log_out: "Dang xuat"
+  account: "Tai khoan"
   sample_app: "Ung dung mau"
+  all_users: "Danh sach nguoi su dung"
   title: "Ung dung mau cho Ruby on Rails"
   language_en: "Tieng anh"
   language_vn: "Tieng viet"
+  following: "Dang theo doi"
+  followers: "Nhung nguoi theo doi"
+  post: "Gui"
+  view_profile: "Xem trang ca nhan"
   static_pages:
     home:
       hello: "Chao mung den voi ung dung mau"
@@ -24,6 +39,7 @@ vi:
       content_link_1: "Ung dung mau cho Rails"
       signup: "Dang ky ngay"
       alt: "Rails logo"
+      micropost_feed: "Cac bai dang"
     about:
       title: "Gioi Thieu"
       content_1: "de day phat trien web voi"
@@ -62,11 +78,42 @@ vi:
     user_destroy: "Da xoa nguoi dung"
     new:
       btn_create: "Tao tai khoan"
+    index:
+      title: "Tat ca nguoi dung"
+    edit:
+      title: "Cap nhat tai khoan cua ban"
+      btn_submit: "Luu thay doi"
+    _user:
+      delete: "Xoa"
+      you_sure: "Ban chac chu?"
+    _follow:
+      btn_submit: "Theo doi"
+    _unfollow:
+      btn_submit: "Huy theo doi"
   sessions:
+    account_not_activated: "Tai khoan chua kich hoat"
+    check_mail: "kiem tra emial de kich hoat"
+    wrong_email: "email hoat mat khau khong dung"
     new:
       login: "Dang nhap"
       new_user: "Ban la thanh vien moi?"
       sign_up: "Dang ky ngay!"
       remember_me: "Nho dang nhap"
-  account_activations_controller:
-
+      forgot_password: "Quen mat khau"
+  account_activations:
+    account_activated: "Tai khoan da kich hoat"
+    invalid_activation_link: "Tai khoan chua duoc kich hoat"
+  microposts:
+    micropost_created: "Da tao bai dang"
+    micropost_deleted: "Da xoa bai dang"
+    delete: "Xoa"
+  password_resets:
+    email_sent: "Thong tin da duoc gui den email"
+    email_not_found: "Email khong tim thay"
+    password_reset: "Mat khau da duoc reset"
+    password_reset_expired: "Da het han reset mat khau"
+    edit:
+      update_password: "Cap nhat mat khau"
+    new:
+      submit: "Gui"
+      title: "Quen mat khau"

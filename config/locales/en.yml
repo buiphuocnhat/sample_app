@@ -42,10 +42,19 @@ en:
         password: "Password"
         remember_me: "Remember me"
   login: "Login"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  account: "Account"
   sample_app: "Sample app"
+  all_users: "Users"
   title: "Ruby on Rails Tutorial Sample App"
   language_en: "English"
   language_vn: "Vietnamese"
+  following: "following"
+  followers: "followers"
+  post: "Post"
+  view_profile: "view my profile"
   static_pages:
     home:
       hello: "Welcome to the Sample App"
@@ -54,6 +63,7 @@ en:
       content_link_1: "Ruby on Rails Tutorial sample application"
       signup: "Sign up now!"
       alt: "Rails logo"
+      micropost_feed: "Micropost Feed"
     about:
       title: "About"
       content_1: "to teach web development with"
@@ -91,10 +101,44 @@ en:
     pls_login: "Please log in."
     user_destroy: "User deleted"
     new:
-       btn_create: "Create my account"
+      btn_create: "Create my account"
+    index:
+      title: "All users"
+    edit:
+      title: "Update your profile"
+      btn_submit: "Save changes"
+    _user:
+      delete: "Delete"
+      you_sure: "You sure?"
+    _follow:
+      btn_submit: "Follow"
+    _unfollow:
+      btn_submit: "Unfollow"
   sessions:
+    account_not_activated: "Account not activated"
+    check_mail: "Check your email for the activation link."
+    wrong_email: "Invalid email/password combination"
     new:
       login: "Login"
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "forgot password"
+  account_activations:
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+  microposts:
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted"
+    delete: "delete"
+  password_resets:
+    email_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    password_reset: "Password has been reset"
+    password_reset_expired: "Password reset has expired."
+    edit:
+      update_password: "Update password"
+    new:
+    submit: "Submit"
+    title: "Forgot password"
+
